@@ -1,0 +1,81 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family:"bebas neue",sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom:solid 2px rgb(47, 0, 255);
+    text-align: left;
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    padding-bottom: 6px;
+    padding-top: 2px;
+    background: rgba(35, 35, 35, .9);
+
+    
+}
+
+.chamada {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background:rgb(168 186 222);
+    display: flex;
+    justify-content: center;
+}
+.chamana-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 41px;
+}
+p {
+    font-size: 20px;
+}
+
+.filmesAnimacao {
+    display: flex;
+    overflow-x: auto;
+    gap: 9px;
+}
+.um {
+    padding-left: 20px;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.um img {
+    opacity: 0.5;
+    height: 250px;
+}
+.um img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+.um h2 {
+    color: blue;
+    font-size: 33px;
+}
+.canal {
+    margin-left: 50px;
+    font-size: 35px;
+    
+}
+.canal img {
+    margin-top: 50px;
+    margin-left: 50px;
+    opacity: 0.5;
+}
+.canal img:hover {
+    margin-top: 50px;
+    margin-left: 50px;
+    opacity: 1.0;
+    border:1px solid green
+}
+.canal1 {
+    font-size: 30px;
+    color: red;
+}
